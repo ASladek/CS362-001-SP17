@@ -1,0 +1,78 @@
+* Starting client
+* Connecting to master process on port 8533
+* Analyzing classpath: 
+  - /Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes
+  - /Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class edu.osu.cs362.ListStack
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 00:51:18.847 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/.evosuite/evosuite-seeds/edu.osu.cs362.ListStack.seed
+* Total number of test goals: 
+  - Line 17
+  - Branch 10
+  - Exception 0
+  - MutationFactory 7
+  - Output 6
+  - Method 7
+  - MethodNoException 7
+  - CBranchFitnessFactory 10
+* Using seed 1492415477528
+* Starting evolution
+* Search finished after 121s and 3909 generations, 359849 statements, best individual has fitness: 4.125
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 17
+* Number of covered goals: 17
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 6
+* Number of covered goals: 4
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 7
+* Number of covered goals: 7
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 86%
+* Total number of goals: 7
+* Number of covered goals: 6
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Generated 13 tests with total length 31
+* Resulting test suite's coverage: 92% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 57%
+* Compiling and checking tests
+[MASTER] 00:53:23.594 [pool-2-thread-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: java.lang.Object cannot be cast to edu.osu.cs362.ListStack
+[MASTER] 00:53:23.594 [pool-2-thread-1] WARN  JUnitAnalyzer - Failing test: Object object0 = new Object();
+((ListStack) object0).top();
+
+* Writing JUnit test case 'ListStack_ESTest' to /Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/.evosuite/tmp_2017_04_17_00_51_16/tests
+* Done!
+

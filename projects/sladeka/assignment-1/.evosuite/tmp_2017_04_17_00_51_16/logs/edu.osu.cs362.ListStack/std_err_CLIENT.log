@@ -1,0 +1,343 @@
+[MASTER] 00:53:21.400 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_8_1492415601361/edu/osu/cs362/ListStack_8_tmp__ESTest.java], RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_8_1492415601361/edu/osu/cs362/ListStack_8_tmp__ESTest_scaffolding.java]]
+[MASTER] 00:53:21.400 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: /Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-master/1.0.3/evosuite-master-1.0.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.3/evosuite-standalone-runtime-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-client/1.0.3/evosuite-client-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-runtime/1.0.3/evosuite-runtime-1.0.3.jar:/Users/Allison/.m2/repository/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar:/Users/Allison/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/Users/Allison/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar:/Users/Allison/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/Users/Allison/.m2/repository/org/hsqldb/hsqldb/2.3.3/hsqldb-2.3.3.jar:/Users/Allison/.m2/repository/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Allison/.m2/repository/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Allison/.m2/repository/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar:/Users/Allison/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/Allison/.m2/repository/org/ow2/asm/asm-all/5.0.4/asm-all-5.0.4.jar:/Users/Allison/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/Allison/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/Allison/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/Users/Allison/.m2/repository/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.jar:/Users/Allison/.m2/repository/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.jar:/Users/Allison/.m2/repository/com/panayotis/JavaPlot/0.4.0/JavaPlot-0.4.0.jar:/Users/Allison/.m2/repository/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8.jar:/Users/Allison/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/Allison/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/Allison/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Allison/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar:/Users/Allison/.m2/repository/org/kohsuke/graphviz-api/1.1/graphviz-api-1.1.jar:/Users/Allison/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar:/Users/Allison/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.0.Final/jboss-servlet-api_3.1_spec-1.0.0.Final.jar:/Users/Allison/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/Allison/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/Users/Allison/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/Allison/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.5.Final/hibernate-entitymanager-5.0.5.Final.jar:/Users/Allison/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-core/5.0.5.Final/hibernate-core-5.0.5.Final.jar:/Users/Allison/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/Allison/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/Users/Allison/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Allison/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/Allison/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/Users/Allison/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/Allison/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[MASTER] 00:53:21.400 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: /Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-master/1.0.3/evosuite-master-1.0.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.3/evosuite-standalone-runtime-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-client/1.0.3/evosuite-client-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-runtime/1.0.3/evosuite-runtime-1.0.3.jar:/Users/Allison/.m2/repository/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar:/Users/Allison/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/Users/Allison/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar:/Users/Allison/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/Users/Allison/.m2/repository/org/hsqldb/hsqldb/2.3.3/hsqldb-2.3.3.jar:/Users/Allison/.m2/repository/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Allison/.m2/repository/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Allison/.m2/repository/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar:/Users/Allison/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/Allison/.m2/repository/org/ow2/asm/asm-all/5.0.4/asm-all-5.0.4.jar:/Users/Allison/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/Allison/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/Allison/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/Users/Allison/.m2/repository/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.jar:/Users/Allison/.m2/repository/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.jar:/Users/Allison/.m2/repository/com/panayotis/JavaPlot/0.4.0/JavaPlot-0.4.0.jar:/Users/Allison/.m2/repository/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8.jar:/Users/Allison/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/Allison/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/Allison/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Allison/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar:/Users/Allison/.m2/repository/org/kohsuke/graphviz-api/1.1/graphviz-api-1.1.jar:/Users/Allison/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar:/Users/Allison/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.0.Final/jboss-servlet-api_3.1_spec-1.0.0.Final.jar:/Users/Allison/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/Allison/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/Users/Allison/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/Allison/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.5.Final/hibernate-entitymanager-5.0.5.Final.jar:/Users/Allison/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-core/5.0.5.Final/hibernate-core-5.0.5.Final.jar:/Users/Allison/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/Allison/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/Users/Allison/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Allison/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/Allison/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/Users/Allison/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/Allison/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[MASTER] 00:53:21.404 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: incompatible types: java.lang.String cannot be converted to edu.osu.cs362.ListStack: 23
+[MASTER] 00:53:21.404 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_8_1492415601361/edu/osu/cs362/ListStack_8_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Mon Apr 17 07:53:21 GMT 2017
+4:  */
+5: 
+6: package edu.osu.cs362;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import static org.evosuite.runtime.EvoAssertions.*;
+11: import edu.osu.cs362.ListStack;
+12: import org.evosuite.runtime.EvoRunner;
+13: import org.evosuite.runtime.EvoRunnerParameters;
+14: import org.junit.runner.RunWith;
+15: 
+16: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true) 
+17: public class ListStack_8_tmp__ESTest extends ListStack_8_tmp__ESTest_scaffolding {
+18: 
+19:   @Test(timeout = 4000)
+20:   public void test0()  throws Throwable  {
+21:       // Undeclared exception!
+22:       try { 
+23:         ((ListStack)"").pop();
+24:         fail("Expecting exception: IllegalArgumentException");
+25:       
+26:       } catch(IllegalArgumentException e) {
+27:          //
+28:          // object is not an instance of declaring class
+29:          //
+30:          assertThrownBy("sun.reflect.NativeMethodAccessorImpl", e);
+31:       }
+32:   }
+33: }
+RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_8_1492415601361/edu/osu/cs362/ListStack_8_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Mon Apr 17 07:53:21 GMT 2017
+5:  */
+6: 
+7: package edu.osu.cs362;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: @EvoSuiteClassExclude
+18: public class ListStack_8_tmp__ESTest_scaffolding {
+19: 
+20:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+21: 
+22:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+23: 
+24:   @BeforeClass 
+25:   public static void initEvoSuiteFramework() { 
+26:     org.evosuite.runtime.RuntimeSettings.className = "edu.osu.cs362.ListStack"; 
+27:     org.evosuite.runtime.GuiSupport.initialize(); 
+28:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+29:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+30:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+31:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+32:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+33:     org.evosuite.runtime.classhandling.JDKClassResetter.init(); 
+34:     initializeClasses();
+35:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+36:   } 
+37: 
+38:   @AfterClass 
+39:   public static void clearEvoSuiteFramework(){ 
+40:     Sandbox.resetDefaultSecurityManager(); 
+41:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+42:   } 
+43: 
+44:   @Before 
+45:   public void initTestCase(){ 
+46:     threadStopper.storeCurrentThreads();
+47:     threadStopper.startRecordingTime();
+48:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+49:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+50:     setSystemProperties(); 
+51:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+52:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+53:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+54:   } 
+55: 
+56:   @After 
+57:   public void doneWithTestCase(){ 
+58:     threadStopper.killAndJoinClientThreads();
+59:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+60:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+61:     resetClasses(); 
+62:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+63:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+64:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+65:   } 
+66: 
+67:   public void setSystemProperties() {
+68:  
+69:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+70:     java.lang.System.setProperty("java.vm.vendor", "Oracle Corporation"); 
+71:     java.lang.System.setProperty("java.specification.version", "1.8"); 
+72:             java.lang.System.setProperty("java.home", "/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"); 
+73:         java.lang.System.setProperty("java.awt.headless", "true"); 
+74:     java.lang.System.setProperty("user.home", "/Users/Allison"); 
+75:                                         java.lang.System.setProperty("user.dir", "/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1"); 
+76:     java.lang.System.setProperty("java.io.tmpdir", "/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/"); 
+77:     java.lang.System.setProperty("awt.toolkit", "sun.lwawt.macosx.LWCToolkit"); 
+78:     java.lang.System.setProperty("file.encoding", "UTF-8"); 
+79:     java.lang.System.setProperty("file.separator", "/"); 
+80:         java.lang.System.setProperty("java.awt.graphicsenv", "sun.awt.CGraphicsEnvironment"); 
+81:     java.lang.System.setProperty("java.awt.printerjob", "sun.lwawt.macosx.CPrinterJob"); 
+82:     java.lang.System.setProperty("java.class.path", "/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_pathingJar265502318135121485.jar"); 
+83:     java.lang.System.setProperty("java.class.version", "52.0"); 
+84:         java.lang.System.setProperty("java.endorsed.dirs", "/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"); 
+85:     java.lang.System.setProperty("java.ext.dirs", "/Users/Allison/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"); 
+86:     java.lang.System.setProperty("java.library.path", "lib"); 
+87:     java.lang.System.setProperty("java.runtime.name", "Java(TM) SE Runtime Environment"); 
+88:     java.lang.System.setProperty("java.runtime.version", "1.8.0_121-b13"); 
+89:     java.lang.System.setProperty("java.specification.name", "Java Platform API Specification"); 
+90:     java.lang.System.setProperty("java.specification.vendor", "Oracle Corporation"); 
+91:         java.lang.System.setProperty("java.vendor", "Oracle Corporation"); 
+92:     java.lang.System.setProperty("java.vendor.url", "http://java.oracle.com/"); 
+93:     java.lang.System.setProperty("java.version", "1.8.0_121"); 
+94:     java.lang.System.setProperty("java.vm.info", "mixed mode"); 
+95:     java.lang.System.setProperty("java.vm.name", "Java HotSpot(TM) 64-Bit Server VM"); 
+96:     java.lang.System.setProperty("java.vm.specification.name", "Java Virtual Machine Specification"); 
+97:     java.lang.System.setProperty("java.vm.specification.vendor", "Oracle Corporation"); 
+98:     java.lang.System.setProperty("java.vm.specification.version", "1.8"); 
+99:     java.lang.System.setProperty("java.vm.version", "25.121-b13"); 
+100:     java.lang.System.setProperty("line.separator", "\n"); 
+101:     java.lang.System.setProperty("os.arch", "x86_64"); 
+102:     java.lang.System.setProperty("os.name", "Mac OS X"); 
+103:     java.lang.System.setProperty("os.version", "10.12.3"); 
+104:     java.lang.System.setProperty("path.separator", ":"); 
+105:     java.lang.System.setProperty("user.country", "US"); 
+106:     java.lang.System.setProperty("user.language", "en"); 
+107:     java.lang.System.setProperty("user.name", "Allison"); 
+108:     java.lang.System.setProperty("user.timezone", "America/Los_Angeles"); 
+109:   }
+110: 
+111:   private static void initializeClasses() {
+112:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(ListStack_8_tmp__ESTest_scaffolding.class.getClassLoader() ,
+113:       "edu.osu.cs362.ListNode",
+114:       "edu.osu.cs362.Stack",
+115:       "edu.osu.cs362.ListStack",
+116:       "edu.osu.cs362.UnderflowException"
+117:     );
+118:   } 
+119: 
+120:   private static void resetClasses() {
+121:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(ListStack_8_tmp__ESTest_scaffolding.class.getClassLoader()); 
+122: 
+123:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+124:       "edu.osu.cs362.UnderflowException"
+125:     );
+126:   }
+127: }
+
+[MASTER] 00:53:21.404 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+((ListStack)"").pop();
+
+[MASTER] 00:53:21.473 [pool-2-thread-1] ERROR JUnitAnalyzer - Compilation failed on compilation units: [RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_10_1492415601442/edu/osu/cs362/ListStack_10_tmp__ESTest.java], RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_10_1492415601442/edu/osu/cs362/ListStack_10_tmp__ESTest_scaffolding.java]]
+[MASTER] 00:53:21.474 [pool-2-thread-1] ERROR JUnitAnalyzer - Classpath: /Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-master/1.0.3/evosuite-master-1.0.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.3/evosuite-standalone-runtime-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-client/1.0.3/evosuite-client-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-runtime/1.0.3/evosuite-runtime-1.0.3.jar:/Users/Allison/.m2/repository/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar:/Users/Allison/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/Users/Allison/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar:/Users/Allison/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/Users/Allison/.m2/repository/org/hsqldb/hsqldb/2.3.3/hsqldb-2.3.3.jar:/Users/Allison/.m2/repository/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Allison/.m2/repository/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Allison/.m2/repository/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar:/Users/Allison/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/Allison/.m2/repository/org/ow2/asm/asm-all/5.0.4/asm-all-5.0.4.jar:/Users/Allison/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/Allison/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/Allison/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/Users/Allison/.m2/repository/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.jar:/Users/Allison/.m2/repository/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.jar:/Users/Allison/.m2/repository/com/panayotis/JavaPlot/0.4.0/JavaPlot-0.4.0.jar:/Users/Allison/.m2/repository/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8.jar:/Users/Allison/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/Allison/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/Allison/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Allison/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar:/Users/Allison/.m2/repository/org/kohsuke/graphviz-api/1.1/graphviz-api-1.1.jar:/Users/Allison/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar:/Users/Allison/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.0.Final/jboss-servlet-api_3.1_spec-1.0.0.Final.jar:/Users/Allison/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/Allison/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/Users/Allison/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/Allison/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.5.Final/hibernate-entitymanager-5.0.5.Final.jar:/Users/Allison/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-core/5.0.5.Final/hibernate-core-5.0.5.Final.jar:/Users/Allison/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/Allison/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/Users/Allison/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Allison/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/Allison/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/Users/Allison/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/Allison/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[MASTER] 00:53:21.474 [pool-2-thread-1] ERROR JUnitAnalyzer - evosuiteCP: /Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-master/1.0.3/evosuite-master-1.0.3.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-standalone-runtime/1.0.3/evosuite-standalone-runtime-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-client/1.0.3/evosuite-client-1.0.3-tests.jar:/Users/Allison/.m2/repository/org/evosuite/evosuite-runtime/1.0.3/evosuite-runtime-1.0.3.jar:/Users/Allison/.m2/repository/javax/ejb/javax.ejb-api/3.2/javax.ejb-api-3.2.jar:/Users/Allison/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/Users/Allison/.m2/repository/javax/faces/javax.faces-api/2.2/javax.faces-api-2.2.jar:/Users/Allison/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar:/Users/Allison/.m2/repository/org/hsqldb/hsqldb/2.3.3/hsqldb-2.3.3.jar:/Users/Allison/.m2/repository/org/springframework/spring-orm/4.1.6.RELEASE/spring-orm-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-core/4.1.6.RELEASE/spring-core-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Allison/.m2/repository/org/springframework/spring-jdbc/4.1.6.RELEASE/spring-jdbc-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-tx/4.1.6.RELEASE/spring-tx-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-context/4.1.6.RELEASE/spring-context-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/org/springframework/spring-aop/4.1.6.RELEASE/spring-aop-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Allison/.m2/repository/org/springframework/spring-expression/4.1.6.RELEASE/spring-expression-4.1.6.RELEASE.jar:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Allison/.m2/repository/org/mockito/mockito-all/2.0.2-beta/mockito-all-2.0.2-beta.jar:/Users/Allison/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar:/Users/Allison/.m2/repository/org/ow2/asm/asm-all/5.0.4/asm-all-5.0.4.jar:/Users/Allison/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/Allison/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar:/Users/Allison/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-classic/1.1.3/logback-classic-1.1.3.jar:/Users/Allison/.m2/repository/ch/qos/logback/logback-core/1.1.3/logback-core-1.1.3.jar:/Users/Allison/.m2/repository/com/googlecode/gentyref/gentyref/1.2.0/gentyref-1.2.0.jar:/Users/Allison/.m2/repository/net/sf/jgrapht/jgrapht/0.8.3/jgrapht-0.8.3.jar:/Users/Allison/.m2/repository/com/panayotis/JavaPlot/0.4.0/JavaPlot-0.4.0.jar:/Users/Allison/.m2/repository/com/thoughtworks/xstream/xstream/1.4.8/xstream-1.4.8.jar:/Users/Allison/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/Users/Allison/.m2/repository/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/Allison/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Allison/.m2/repository/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar:/Users/Allison/.m2/repository/org/kohsuke/graphviz-api/1.1/graphviz-api-1.1.jar:/Users/Allison/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/Allison/.m2/repository/org/apache/commons/commons-exec/1.2/commons-exec-1.2.jar:/Users/Allison/.m2/repository/org/jboss/spec/javax/servlet/jboss-servlet-api_3.1_spec/1.0.0.Final/jboss-servlet-api_3.1_spec-1.0.0.Final.jar:/Users/Allison/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/Allison/.m2/repository/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar:/Users/Allison/.m2/repository/javax/el/javax.el-api/3.0.0/javax.el-api-3.0.0.jar:/Users/Allison/.m2/repository/javax/interceptor/javax.interceptor-api/1.2/javax.interceptor-api-1.2.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.5.Final/hibernate-entitymanager-5.0.5.Final.jar:/Users/Allison/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/Users/Allison/.m2/repository/org/hibernate/hibernate-core/5.0.5.Final/hibernate-core-5.0.5.Final.jar:/Users/Allison/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/Allison/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/Users/Allison/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/Allison/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/Allison/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/Users/Allison/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/Allison/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1/target/classes:/Users/Allison/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Allison/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[MASTER] 00:53:21.474 [pool-2-thread-1] ERROR JUnitAnalyzer - Diagnostic: incompatible types: java.lang.Integer cannot be converted to edu.osu.cs362.ListStack: 24
+[MASTER] 00:53:21.474 [pool-2-thread-1] ERROR JUnitAnalyzer - RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_10_1492415601442/edu/osu/cs362/ListStack_10_tmp__ESTest.java]
+1: /*
+2:  * This file was automatically generated by EvoSuite
+3:  * Mon Apr 17 07:53:21 GMT 2017
+4:  */
+5: 
+6: package edu.osu.cs362;
+7: 
+8: import org.junit.Test;
+9: import static org.junit.Assert.*;
+10: import static org.evosuite.runtime.EvoAssertions.*;
+11: import edu.osu.cs362.ListStack;
+12: import org.evosuite.runtime.EvoRunner;
+13: import org.evosuite.runtime.EvoRunnerParameters;
+14: import org.junit.runner.RunWith;
+15: 
+16: @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true) 
+17: public class ListStack_10_tmp__ESTest extends ListStack_10_tmp__ESTest_scaffolding {
+18: 
+19:   @Test(timeout = 4000)
+20:   public void test0()  throws Throwable  {
+21:       Integer integer0 = new Integer((-582));
+22:       // Undeclared exception!
+23:       try { 
+24:         ((ListStack) integer0).topAndPop();
+25:         fail("Expecting exception: IllegalArgumentException");
+26:       
+27:       } catch(IllegalArgumentException e) {
+28:          //
+29:          // object is not an instance of declaring class
+30:          //
+31:          assertThrownBy("sun.reflect.NativeMethodAccessorImpl", e);
+32:       }
+33:   }
+34: }
+RegularFileObject[/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_10_1492415601442/edu/osu/cs362/ListStack_10_tmp__ESTest.java]
+1: /**
+2:  * Scaffolding file used to store all the setups needed to run 
+3:  * tests automatically generated by EvoSuite
+4:  * Mon Apr 17 07:53:21 GMT 2017
+5:  */
+6: 
+7: package edu.osu.cs362;
+8: 
+9: import org.evosuite.runtime.annotation.EvoSuiteClassExclude;
+10: import org.junit.BeforeClass;
+11: import org.junit.Before;
+12: import org.junit.After;
+13: import org.junit.AfterClass;
+14: import org.evosuite.runtime.sandbox.Sandbox;
+15: import org.evosuite.runtime.sandbox.Sandbox.SandboxMode;
+16: 
+17: @EvoSuiteClassExclude
+18: public class ListStack_10_tmp__ESTest_scaffolding {
+19: 
+20:   private static final java.util.Properties defaultProperties = (java.util.Properties) java.lang.System.getProperties().clone(); 
+21: 
+22:   private org.evosuite.runtime.thread.ThreadStopper threadStopper =  new org.evosuite.runtime.thread.ThreadStopper (org.evosuite.runtime.thread.KillSwitchHandler.getInstance(), 3000);
+23: 
+24:   @BeforeClass 
+25:   public static void initEvoSuiteFramework() { 
+26:     org.evosuite.runtime.RuntimeSettings.className = "edu.osu.cs362.ListStack"; 
+27:     org.evosuite.runtime.GuiSupport.initialize(); 
+28:     org.evosuite.runtime.RuntimeSettings.maxNumberOfThreads = 100; 
+29:     org.evosuite.runtime.RuntimeSettings.maxNumberOfIterationsPerLoop = 10000; 
+30:     org.evosuite.runtime.RuntimeSettings.mockSystemIn = true; 
+31:     org.evosuite.runtime.RuntimeSettings.sandboxMode = org.evosuite.runtime.sandbox.Sandbox.SandboxMode.RECOMMENDED; 
+32:     org.evosuite.runtime.sandbox.Sandbox.initializeSecurityManagerForSUT(); 
+33:     org.evosuite.runtime.classhandling.JDKClassResetter.init(); 
+34:     initializeClasses();
+35:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+36:   } 
+37: 
+38:   @AfterClass 
+39:   public static void clearEvoSuiteFramework(){ 
+40:     Sandbox.resetDefaultSecurityManager(); 
+41:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+42:   } 
+43: 
+44:   @Before 
+45:   public void initTestCase(){ 
+46:     threadStopper.storeCurrentThreads();
+47:     threadStopper.startRecordingTime();
+48:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().initHandler(); 
+49:     org.evosuite.runtime.sandbox.Sandbox.goingToExecuteSUTCode(); 
+50:     setSystemProperties(); 
+51:     org.evosuite.runtime.GuiSupport.setHeadless(); 
+52:     org.evosuite.runtime.Runtime.getInstance().resetRuntime(); 
+53:     org.evosuite.runtime.agent.InstrumentingAgent.activate(); 
+54:   } 
+55: 
+56:   @After 
+57:   public void doneWithTestCase(){ 
+58:     threadStopper.killAndJoinClientThreads();
+59:     org.evosuite.runtime.jvm.ShutdownHookHandler.getInstance().safeExecuteAddedHooks(); 
+60:     org.evosuite.runtime.classhandling.JDKClassResetter.reset(); 
+61:     resetClasses(); 
+62:     org.evosuite.runtime.sandbox.Sandbox.doneWithExecutingSUTCode(); 
+63:     org.evosuite.runtime.agent.InstrumentingAgent.deactivate(); 
+64:     org.evosuite.runtime.GuiSupport.restoreHeadlessMode(); 
+65:   } 
+66: 
+67:   public void setSystemProperties() {
+68:  
+69:     java.lang.System.setProperties((java.util.Properties) defaultProperties.clone()); 
+70:     java.lang.System.setProperty("java.vm.vendor", "Oracle Corporation"); 
+71:     java.lang.System.setProperty("java.specification.version", "1.8"); 
+72:             java.lang.System.setProperty("java.home", "/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"); 
+73:         java.lang.System.setProperty("java.awt.headless", "true"); 
+74:     java.lang.System.setProperty("user.home", "/Users/Allison"); 
+75:                                         java.lang.System.setProperty("user.dir", "/Users/Allison/Documents/CS362/Repo/CS362-001-SP17/projects/sladeka/assignment-1"); 
+76:     java.lang.System.setProperty("java.io.tmpdir", "/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/"); 
+77:     java.lang.System.setProperty("awt.toolkit", "sun.lwawt.macosx.LWCToolkit"); 
+78:     java.lang.System.setProperty("file.encoding", "UTF-8"); 
+79:     java.lang.System.setProperty("file.separator", "/"); 
+80:         java.lang.System.setProperty("java.awt.graphicsenv", "sun.awt.CGraphicsEnvironment"); 
+81:     java.lang.System.setProperty("java.awt.printerjob", "sun.lwawt.macosx.CPrinterJob"); 
+82:     java.lang.System.setProperty("java.class.path", "/var/folders/rm/2fnjv5dx47q1tpt2rh_xcdjh0000gn/T/EvoSuite_pathingJar265502318135121485.jar"); 
+83:     java.lang.System.setProperty("java.class.version", "52.0"); 
+84:         java.lang.System.setProperty("java.endorsed.dirs", "/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"); 
+85:     java.lang.System.setProperty("java.ext.dirs", "/Users/Allison/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"); 
+86:     java.lang.System.setProperty("java.library.path", "lib"); 
+87:     java.lang.System.setProperty("java.runtime.name", "Java(TM) SE Runtime Environment"); 
+88:     java.lang.System.setProperty("java.runtime.version", "1.8.0_121-b13"); 
+89:     java.lang.System.setProperty("java.specification.name", "Java Platform API Specification"); 
+90:     java.lang.System.setProperty("java.specification.vendor", "Oracle Corporation"); 
+91:         java.lang.System.setProperty("java.vendor", "Oracle Corporation"); 
+92:     java.lang.System.setProperty("java.vendor.url", "http://java.oracle.com/"); 
+93:     java.lang.System.setProperty("java.version", "1.8.0_121"); 
+94:     java.lang.System.setProperty("java.vm.info", "mixed mode"); 
+95:     java.lang.System.setProperty("java.vm.name", "Java HotSpot(TM) 64-Bit Server VM"); 
+96:     java.lang.System.setProperty("java.vm.specification.name", "Java Virtual Machine Specification"); 
+97:     java.lang.System.setProperty("java.vm.specification.vendor", "Oracle Corporation"); 
+98:     java.lang.System.setProperty("java.vm.specification.version", "1.8"); 
+99:     java.lang.System.setProperty("java.vm.version", "25.121-b13"); 
+100:     java.lang.System.setProperty("line.separator", "\n"); 
+101:     java.lang.System.setProperty("os.arch", "x86_64"); 
+102:     java.lang.System.setProperty("os.name", "Mac OS X"); 
+103:     java.lang.System.setProperty("os.version", "10.12.3"); 
+104:     java.lang.System.setProperty("path.separator", ":"); 
+105:     java.lang.System.setProperty("user.country", "US"); 
+106:     java.lang.System.setProperty("user.language", "en"); 
+107:     java.lang.System.setProperty("user.name", "Allison"); 
+108:     java.lang.System.setProperty("user.timezone", "America/Los_Angeles"); 
+109:   }
+110: 
+111:   private static void initializeClasses() {
+112:     org.evosuite.runtime.classhandling.ClassStateSupport.initializeClasses(ListStack_10_tmp__ESTest_scaffolding.class.getClassLoader() ,
+113:       "edu.osu.cs362.ListNode",
+114:       "edu.osu.cs362.Stack",
+115:       "edu.osu.cs362.ListStack",
+116:       "edu.osu.cs362.UnderflowException"
+117:     );
+118:   } 
+119: 
+120:   private static void resetClasses() {
+121:     org.evosuite.runtime.classhandling.ClassResetter.getInstance().setClassLoader(ListStack_10_tmp__ESTest_scaffolding.class.getClassLoader()); 
+122: 
+123:     org.evosuite.runtime.classhandling.ClassStateSupport.resetClasses(
+124:       "edu.osu.cs362.UnderflowException"
+125:     );
+126:   }
+127: }
+
+[MASTER] 00:53:21.474 [pool-2-thread-1] ERROR JUnitAnalyzer - Failed to compile test case:
+Integer integer0 = new Integer((-582));
+((ListStack) integer0).topAndPop();
+
+[MASTER] 00:53:23.593 [pool-2-thread-1] ERROR JUnitAnalyzer - 1 test cases failed
